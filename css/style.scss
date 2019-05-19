@@ -1,0 +1,87 @@
+.bbody {
+    width: 960px;
+    background: url(../img/bg.jpg);
+    font-family: Tahoma, 'Segoe UI', Verdana, sans-serif;
+    color: #fff;  
+    height: 832px;  
+}
+
+.wrapper {
+    width: 819px;
+    margin: 0 auto;
+}
+
+.header {
+    display: grid;
+    grid-template-columns: auto auto;
+    height: 152px;
+}
+
+.left {
+    display: flex;
+    position: relative;
+}
+
+.palm-tree {
+    position: absolute;
+    left: 140px;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 264px;
+    margin-top: 80px;
+    font-size: 10px;
+    align-items: center;
+    padding-bottom: 16px;
+    
+}
+
+.right {
+    display: flex;
+    justify-content: flex-end;   
+   
+}
+
+.contacts {
+    width: 104px;
+    height: 36px;
+    flex-direction: column;
+    font-size: 9px;
+    line-height: 12px;
+    margin-top: 100px;
+    align-items: flex-start;
+}
+.contacts span {
+    font-size: 10px;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-between;
+}
+
+.countries {
+    display: grid;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+
+.countries  img {
+    width: 264px;
+}
+
+.footer {
+    height: 175px;
+    display: grid;
+    justify-content: center;
+    font-size: 10px;
+    margin-top: 135px;
+}
+
