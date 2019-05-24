@@ -1,13 +1,16 @@
 .bbody {
+  margin: 0 auto;
+  padding: 0;
   width: 960px;
   background: url(../img/bg.jpg);
+  background-repeat: no-repeat;
   font-family: Tahoma, 'Segoe UI', Verdana, sans-serif;
   color: #fff;
-  height: 832px;
+  height: 882px;
 }
 
 .wrapper {
-  width: 819px;
+  width: 817px;
   margin: 0 auto;
 }
 
@@ -16,7 +19,7 @@
   display: grid;
   -ms-grid-columns: auto auto;
       grid-template-columns: auto auto;
-  height: 152px;
+  height: 204.5px;
 }
 
 .left {
@@ -29,6 +32,7 @@
 .palm-tree {
   position: absolute;
   left: 140px;
+  top: 55px;
 }
 
 .logo {
@@ -43,12 +47,14 @@
       -ms-flex-pack: justify;
           justify-content: space-between;
   width: 264px;
-  margin-top: 80px;
-  font-size: 10px;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  margin-top: 131px;
+  font-size: 10.16px;
+  font-weight: 600;
   padding-bottom: 16px;
+}
+
+.logo p {
+  padding-left: 82px;
 }
 
 .right {
@@ -67,16 +73,16 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  font-size: 9px;
-  line-height: 12px;
-  margin-top: 100px;
+  font-size: 8.47px;
+  line-height: 13px;
+  margin-top: 151px;
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
 }
 
 .contacts span {
-  font-size: 10px;
+  font-size: 10.16px;
 }
 
 .main {
@@ -92,7 +98,7 @@
 .countries {
   display: -ms-grid;
   display: grid;
-  font-size: 15px;
+  font-size: 15.24px;
   line-height: 18px;
   text-align: center;
   margin-bottom: 50px;
@@ -100,6 +106,7 @@
 
 .countries img {
   width: 264px;
+  margin-bottom: 1px;
 }
 
 .footer {
@@ -109,7 +116,8 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  font-size: 10px;
+  font-size: 10.16px;
   margin-top: 135px;
+  padding-left: 11px;
 }
 /*# sourceMappingURL=style.css.map */
